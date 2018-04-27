@@ -1,0 +1,8 @@
+{
+  "name": "ionic3-backgroundmod",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
