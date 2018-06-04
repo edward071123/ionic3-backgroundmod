@@ -10,5 +10,10 @@
 <ion-content padding>
 
   <button ion-button (click)="playAudio()">Play audio</button>
+  <button ion-button (click)="playMedia()">Play media</button>
+    <button ion-button (click)="pauseMedia()">Pause media</button>
 
+  <button ion-button full (click)="startVideo()">Start Video</button>
+  <button ion-button full (click)="startAudio()">Start Audio</button>
+  <button ion-button full (click)="stopAudio()" color="danger">Stop Audio</button>
 </ion-content>

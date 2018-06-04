@@ -5,6 +5,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { BackgroundMode } from '@ionic-native/background-mode';
 import { NativeAudio } from '@ionic-native/native-audio';
+import { StreamingMedia } from '@ionic-native/streaming-media';
+import { Media, MediaObject } from '@ionic-native/media';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -28,6 +30,8 @@ import { HomePage } from '../pages/home/home';
     NativeAudio,
     StatusBar,
     SplashScreen,
+    StreamingMedia,
+    Media,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

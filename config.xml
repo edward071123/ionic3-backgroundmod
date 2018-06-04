@@ -86,4 +86,9 @@
     <plugin name="de.appplant.cordova.plugin.local-notification" spec="^0.8.5" />
     <plugin name="cordova-plugin-geolocation" spec="^4.0.1" />
     <engine name="ios" spec="~4.5.4" />
+    <plugin name="com.hutchind.cordova.plugins.streamingmedia" spec="~0.1.4" />
+    <plugin name="cordova-plugin-background-audio" spec="https://github.com/danielsogl/cordova-plugin-background-audio.git" />
+    <plugin name="cordova-plugin-media" spec="^5.0.2">
+        <variable name="KEEP_AVAUDIOSESSION_ALWAYS_ACTIVE" value="NO" />
+    </plugin>
 </widget>
